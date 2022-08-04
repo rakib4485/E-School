@@ -1,0 +1,175 @@
+/*header start*/
+body{
+	
+	font-family:"Poppins", sans-serif;
+}
+header {
+  background-color: #f0fff0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+}
+.logo-img{
+	height:59px;
+	width:auto;
+}
+.menu-btn {
+	background: #21b573;
+	color: white;
+	border-radius: 20px;
+	padding: 8px 18px;
+}
+.nav-item{
+	margin-left: 20px;
+}
+.b-ques {
+	color:red;
+}
+.banner-right img{
+	height: auto;
+	width: 100%;
+}
+.b-title {
+	font-size: 48px;
+	font-weight: 700;
+}
+.b-title span{
+	color: #21b573;
+	
+}
+.b-subtitle{
+	color: #6c6b6b;
+}
+.b-btn{
+	background:#21b573 ;
+	color: white;
+	border-radius: 22px;
+}
+.banner-left{
+	padding-left:22px ;
+	padding-right: 89px;
+}
+	.banner{
+		padding: 70px 0px;
+	}
+	@media screen and (max-width: 765px) {
+		.nav-item {
+		  margin-left: 0px;
+		}
+		.menu-btn {
+		  width: 100%;
+		}
+	  }
+/*header close*/
+
+/*About start*/
+.about-sec{
+	padding: 45px 0px;
+}
+.about-box{
+	background:#f8fffb ;
+	text-align: center;
+	padding: 35px 0px;
+	border-radius: 10px;
+}
+.about-box:hover{
+	box-shadow:1px 1px 20px rgb(0, 0, 0, 0.1);
+	background:white;
+}
+.about-box img{
+	width: 66px;
+	height: auto;
+}
+.about-header {
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+.about-title {
+	margin-bottom: 0px;
+}
+/*About close*/
+
+/*online start*/
+.online-sec {
+	padding: 40px 0px;
+}
+.online-header {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	color: #413960;
+}
+.online-box img{
+	width: 100%;
+	height: auto;
+}
+.online-title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.online-btn{
+	background:#21b573 ;
+	color:white;
+	border-radius: 22px;
+	padding: 5px 20px;
+	margin-top: 5px;
+	margin-bottom: 22px;
+}
+.time-seat img{
+	width: 25px;
+}
+.online-box {
+	padding: 14px 14px 0px 14px;
+	box-shadow: 1px 1px 20px rgb(0, 0, 0, 0.1);
+	border-radius: 16px;
+}
+/*online close*/
+
+/*testimonial start*/
+.test-header {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	color: #413960;
+}
+.test-img img{
+	width: 80%;
+}
+.test-img{
+	text-align: center;
+}
+.test-sec{
+	padding: 40px 0px 60px 0px;
+}
+/*testimonial close*/
+
+/*footer start*/
+footer{
+	background: #282531;
+	color: white;
+	padding: 50px;
+}
+.f-header{
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+.f-menu ul{
+	margin: 0;
+	padding: 0;
+}
+.f-menu ul li{
+	list-style-type: none;
+	font-weight: 400;
+	margin-top: 5px;
+}
+.copy-text{
+	text-align: center;
+	color:white;
+	background: #282531;
+	padding-bottom: 10px;
+}
+/*footer close*/
